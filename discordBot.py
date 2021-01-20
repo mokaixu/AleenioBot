@@ -28,7 +28,8 @@ greetings = ["Yoooooo, it's all good",
 "i'd go gay for zac efron",
 'brb doing calisthenics',
 "that's CRAYYYZEEEE",
-"wanna get boba"]
+"wanna get boba",
+"Can we get 10 more big hand rolls?"]
 
 emojis = list(emoji.UNICODE_EMOJI)
 token = os.getenv("ALAN_BOT_TOKEN")
