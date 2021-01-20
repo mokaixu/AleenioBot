@@ -55,12 +55,11 @@ async def cat(ctx):
 
 @bot.command(pass_context=True)
 async def hbd(ctx):
-	leftdance = '<:dance1:766504081807376464>'
-	rightdance = '<:dance2:766504487140851742>'
-	msg = leftdance + 'HAPPY BIRTHDAY ALAN https://docs.google.com/presentation/d/1fxUqEyrbZ7HavY8rlUR3SiXHl1k0VajwwQqEzHuTojk/edit ' + rightdance
+	leftdance = '🥳'
+	rightdance = '<🤩'
+	msg = leftdance + ' HAPPY BIRTHDAY ALAN https://docs.google.com/presentation/d/1fxUqEyrbZ7HavY8rlUR3SiXHl1k0VajwwQqEzHuTojk/edit ' + rightdance
 	ch = ctx.message.channel
 	await ch.send(msg)
-	await ctx.message.add_reaction("santa:9a77e13be0f62ffa5f508f3cf50912c2")
 
 
 @bot.command(pass_context=True)
