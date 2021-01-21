@@ -29,7 +29,16 @@ greetings = ["Yoooooo, it's all good",
 'brb doing calisthenics',
 "that's CRAYYYZEEEE",
 "wanna get boba",
-"Can we get 10 more big hand rolls?"]
+"Can we get 10 more big hand rolls?",
+'[insert name]!!!!!!!! u know the way he greets someone',
+'I dont think so?',
+'LET ME LIVE!',
+'One more...',
+'All Markham women are the same',
+'Does that look raw?',
+'I just got borked',
+'Thats it, Im playing Garen support',
+'broh']
 
 emojis = list(emoji.UNICODE_EMOJI)
 token = os.getenv("ALAN_BOT_TOKEN")
